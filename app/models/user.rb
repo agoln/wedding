@@ -4,7 +4,13 @@ class User < ActiveRecord::Base
   # :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :recoverable, :rememberable, :trackable
 
-  # Setup accessible (or protected) attributes for your model
-  attr_accessible :email, :password, :password_confirmation, :remember_me
-  # attr_accessible :title, :body
+  attr_accessible :email, :password, :password_confirmation, :remember_me, :url, :name, :role, :position, :admin
+
+  scope :role, lambda { |role| 
+    where("role = ?", role).order("position asc")
+  }
+
+  def admin?
+    admin
+  end
 end

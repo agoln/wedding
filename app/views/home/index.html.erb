@@ -1,1 +1,9 @@
-Index for wedding
+<h1><%= @wedding_info.header %></h1>
+<div class="well">
+    <h3><%= @wedding_info.start_time.strftime("%A, %B #{@wedding_info.start_time.day.ordinalize} %Y") %></h3>
+    <hr/>
+    <h2><%= "#{@wedding_info.groom.name} & #{@wedding_info.bride.name}" %></h2>
+    <hr/>
+    <%= @wedding_info.invite_text %>
+
+</div>
