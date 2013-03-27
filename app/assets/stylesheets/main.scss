@@ -1,6 +1,7 @@
 html, body {
     height: 100%;
 	font-family: 'Domine', serif;
+    background-color: pink;
 }
 
 h1, h2, h3 {
@@ -9,4 +10,28 @@ h1, h2, h3 {
 
 h3 i {
     margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+.carousel {
+    margin-bottom: 0;
+    .carousel-caption {
+    max-height: 400px;
+        h2 {
+            color: $white;
+        }
+    }
+}
+
+#featured-carousel {
+    @media (max-width: 767px) {
+        display: none;
+    }
 }
