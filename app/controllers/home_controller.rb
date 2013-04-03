@@ -5,4 +5,12 @@ class HomeController < ApplicationController
   end
   def details
   end
+  def people
+  end
+  def rsvp
+  end
+  def info
+  end
+  def registry
+  end
 end

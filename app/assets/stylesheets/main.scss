@@ -1,29 +1,24 @@
 html, body {
     height: 100%;
 	font-family: 'Domine', serif;
-    background-color: pink;
+    background-color: $blue;
 }
 
+.navbar{
+    padding-bottom:$paddingL;
+}
 h1, h2, h3 {
     font-family: 'Clicker Script', cursive;
 }
 
 h3 i {
-    margin-top: 10px;
+    margin-top: $paddingM;
 }
-
-
-
-
-
-
-
 
 
 .carousel {
     margin-bottom: 0;
     .carousel-caption {
-    max-height: 400px;
         h2 {
             color: $white;
         }
