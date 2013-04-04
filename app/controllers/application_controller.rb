@@ -7,4 +7,5 @@ class ApplicationController < ActionController::Base
         def create_info
             @wedding_info = WeddingInfo.all.first
         end
+    
 end

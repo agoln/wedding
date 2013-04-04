@@ -7,4 +7,8 @@ Wedding::Application.routes.draw do
   match "about" => "home#about"
   match "details" => "home#details"
   match "signin" => "home#signin"
+  match "people" => "home#people"
+  match "rsvp" => "home#rsvp"
+  match "registry" => "home#registry"
+  match "info" => "home#info"
 end
