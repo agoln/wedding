@@ -1,9 +1,23 @@
+/* Common */
 $baseFontSize: 16px;
 
-$gray: #EFEFEF; 
+/* Colors */
+$lightGray: #EFEFEF; 
+$gray: #3B3B3B;
+$darkGray:#4EA0A7;
+$lightBlue: #9ED6FF;
 $blue: #1AC6F4;
 $white: #FFFFFF;
 
+
+$heading_background: #777;
+
+/* Header */
+$header_background: $gray;
+$header_link_text_color: $darkGray;
+$header_text_color: #CCC;
+
+/* Padding */
 $paddingXS: 4px;
 $paddingS: 8px; 
 $paddingM: 10px;
