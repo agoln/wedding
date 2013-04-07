@@ -1,7 +1,7 @@
 html, body {
     height: 100%;
 	font-family: 'Domine', serif;
-    background-color: $blue;
+    background: $background;
 }
 
 /****************************
@@ -70,4 +70,24 @@ Carousel
     @media (max-width: 767px) {
         display: none;
     }
+}
+
+
+/****************************
+Carousel
+*****************************/
+.registry{
+    padding: 0px;
+    margin: 0px;
+    height: 122px;
+    width: 300px; 
+}
+.amazon{   
+    @extend .registry;
+    background: url(amazon.jpg) no-repeat;
+}
+.target{
+    @extend .registry;
+    background: url(target.gif) no-repeat;
+   
 }
