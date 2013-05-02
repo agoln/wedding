@@ -6,10 +6,16 @@
 	</div>
 	<div class="row-fluid">
 		<div class="span6">
-			<button class="amazon" type="btn"><%=link_to('http://www.amazon.com/gp/registry/registry.html?type=wedding&id=79QVT7DSAIV0&tag=wedch-994-20')%></button>
+			<%= link_to "http://www.amazon.com/gp/registry/registry.html?type=wedding&id=79QVT7DSAIV0&tag=wedch-994-20" do 
+				image_tag('/assets/amazon.jpg') 
+				end 
+				%>
 		</div>
 		<div class="span6">
-			<button class="target" type="btn"><%=link_to('http://www.target.com/wedd/registry/NUESeb38GmplOEwfEnYECw')%></button>
+			<%= link_to "http://www.target.com/wedd/registry/NUESeb38GmplOEwfEnYECw" do 
+				image_tag('/assets/target.gif') 
+				end 
+				%>
 		</div>
 	</div>
 </div>
