@@ -11,14 +11,14 @@
                 <div class="nav-collapse">
                     <ul class="nav">
                         <li><%= link_to("HOME", root_url) %></li>
-                        <li><%= link_to("DETAILS", details_url) %></li>
                         <li><%= link_to("LE PARTY", people_url) %></li>
+                        <li><%= link_to("REGISTRY", registry_url) %></li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">GUESTS<b class="caret"></b></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">WEDDING GUEST DETAILS<b class="caret"></b></a>
                             <ul class="dropdown-menu">
+                                <li><%= link_to("EVENT DETAILS", details_url) %></li>
                                 <li><%= link_to("RSVP", rsvp_url) %></li>
-                                <li><%= link_to("REGISTRY", registry_url) %></li>
-                                <li><%= link_to("INFO", info_url) %></li>
+                                <li><%= link_to("LOGISTICS", info_url) %></li>
                             </ul>
                         </li>
                     </ul>

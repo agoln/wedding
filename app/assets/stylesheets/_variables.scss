@@ -6,7 +6,11 @@ $lightGray: #EFEFEF;
 $gray: #3B3B3B;
 $darkGray:#4EA0A7;
 $lightBlue: #9ED6FF;
-$blue: #1AC6F4;
+$blue: #00539F;
+$orange:#FF881A;
+$lightOrange:#FFA857;
+$yellow:#FFFB1A;
+
 $white: #FFFFFF;
 
 $background:  url(/assets/background.png) repeat;
@@ -15,9 +19,10 @@ $baseFontSize: 14px;
 
 
 /* Header */
-$header_background: $gray;
-$header_link_text_color: $darkGray;
-$header_text_color: #CCC;
+$header_background_color: $blue;
+$header_link_text_color: $lightOrange;
+$header_link_text_shadow_color: $orange;
+$header_link_hover_color: $lightGray;
 
 /* Padding */
 $paddingXS: 4px;
