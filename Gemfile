@@ -24,7 +24,7 @@ gem 'rails_admin'
 gem 'devise'
 
 group :production do
-    gem 'mysql2'
+    gem 'pg'
 end
 
 gem "omniauth-facebook"
