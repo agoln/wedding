@@ -7,8 +7,6 @@ class HomeController < ApplicationController
   end
   def people
   end
-  def rsvp
-  end
   def info
   end
   def registry

@@ -1,0 +1,8 @@
+<div class="span1"></div>
+<div class="span10">
+	<div class="well">
+		<h1>registered</h1>
+		<p>Thanks <%= @rsvp.invite %>. We have you registered for <%= @rsvp.invite_meal %>. <% if !@rsvp.guest.empty? %>We've got <%= @rsvp.guest %> down for <%= @rsvp.guest_meal %> <% end %>.</p>
+		<p>To make changes, just contact Janis or Logan!</p>
+	</div>
+</div>
