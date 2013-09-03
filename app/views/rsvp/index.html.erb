@@ -35,6 +35,12 @@
 					<div class="span2">
 						<label class="pull-left" for="rsvp_invite_meal_veggie">veggie</label>
 					</div>
+					<div class="span1">
+						<%= f.radio_button(:invite_meal, "can't make it", :class => "pull-right", :id => "rsvp_invite_meal_noshow") %>
+					</div>
+					<div class="span2">
+						<label class="pull-left" for="rsvp_invite_meal_noshow">can't make it</label>
+					</div>
 				</div>
 			</div>
 			<br />
@@ -64,6 +70,12 @@
 					</div>
 					<div class="span2">
 						<label class="pull-left" for="rsvp_guest_meal_veggie">veggie</label>
+					</div>
+					<div class="span1">
+						<%= f.radio_button(:guest_meal, "can't make it", :class => "pull-right", :id => "rsvp_guest_meal_noshow") %>
+					</div>
+					<div class="span2">
+						<label class="pull-left" for="rsvp_guest_meal_noshow">can't make it</label>
 					</div>
 				</div>
 			</div>
